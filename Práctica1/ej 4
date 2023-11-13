@@ -1,0 +1,8 @@
+# Solicitar al usuario ingresar un entero positivo
+N = int(input("Ingrese un entero positivo (N): "))
+
+# Calcular la suma utilizando la fórmula
+suma = N * (N + 1) // 2
+
+# Mostrar el resultado
+print(f"La suma de los enteros desde 1 hasta {N} es: {suma}")
