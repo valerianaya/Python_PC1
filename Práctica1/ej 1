@@ -1,0 +1,5 @@
+# Solicitar al usuario ingresar su nombre de usuario
+nombre_usuario = input("Por favor, ingresa tu nombre de usuario: ")
+
+# Mostrar saludo personalizado
+print(f"¡Hola {nombre_usuario}!")
