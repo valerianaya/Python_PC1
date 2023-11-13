@@ -1,0 +1,13 @@
+# Definir el peso de cada payaso y muñeca en gramos
+peso_payaso = 112
+peso_muneca = 75
+
+# Solicitar al usuario ingresar la cantidad de payasos y muñecas vendidos
+cantidad_payasos = int(input("Ingrese la cantidad de payasos vendidos: "))
+cantidad_munecas = int(input("Ingrese la cantidad de muñecas vendidas: "))
+
+# Calcular el peso total del paquete
+peso_total_paquete = (cantidad_payasos * peso_payaso) + (cantidad_munecas * peso_muneca)
+
+# Mostrar el resultado
+print(f"El peso total del paquete que será enviado es: {peso_total_paquete} gramos.")
