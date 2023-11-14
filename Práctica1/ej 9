@@ -1,0 +1,9 @@
+# Definir la lista original
+lista_original = ['Di', 'buen', 'día', 'a', 'papa']
+
+# Crear una nueva lista invertida utilizando la función reversed()
+lista_invertida = list(reversed(lista_original))
+
+# Mostrar la lista original y la invertida
+print("Lista Original:", lista_original)
+print("Lista Invertida:", lista_invertida)

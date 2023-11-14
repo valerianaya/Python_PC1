@@ -1,0 +1,9 @@
+# Definir la lista original
+lista_original = [1, 1, 2, 3, 4, 4, 5, 1]
+
+# Eliminar duplicados utilizando un conjunto y convertirlo de nuevo a lista
+lista_procesada = list(set(lista_original))
+
+# Mostrar el resultado
+print("Lista original:", lista_original)
+print("Lista procesada:", lista_procesada)
